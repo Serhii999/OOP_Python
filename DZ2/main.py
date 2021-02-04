@@ -54,5 +54,8 @@ Serhii.mail = 'seriy@gmail.com'
 Serhii.daily_pay = 40
 
 print(Anya.__str__())
-print(Anya.check_salary(25))
-print(Serhii.work(), '\n', Serhii.check_salary(30), '\n', Serhii.__str__() )
+print(Anya.check_salary(25),'\n')
+
+print(Serhii.work(),'\n',  Serhii.check_salary(30), '\n')
+print(str(Serhii))
+print(str(Anya))
